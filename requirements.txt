@@ -1,0 +1,5 @@
+fastapi[all]
+uvicorn
+facebook-page-scraper
+pymongo
+
