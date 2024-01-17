@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Page Scraper</title>
+</head>
+<body>
+    <h1>Facebook Page Scraper</h1>
+    <form onsubmit="startScraping(); return false;">
+        <label for="pageName">Page Name:</label>
+        <input type="text" id="pageName" name="pageName" value="NatGeoAbuDhabi" required><br>
+        
+        <label for="postsCount">Posts Count:</label>
+        <input type="number" id="postsCount" name="postsCount" value="10" required><br>
+        
+        <button type="submit">Start Scraping</button>
+    </form>
+    
+    <div id="result"></div>
+
+    <script>
+        const socket = new WebSocket('ws://localhost:8000/ws');
+        socket.onmessage = function(event) {
+            document.getElementById('result').innerText = event.data;
+        };
+
+        function startScraping() {
+            const pageName = document.getElementById('pageName').value;
+            const postsCount = document.getElementById('postsCount').value;
+            fetch(`/start_scraping?page_name=${pageName}&posts_count=${postsCount}`)
+                .then(response => response.json())
+                .then(data => console.log(data));
+        }
+    </script>
+</body>
+</html>
