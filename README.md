@@ -24,4 +24,5 @@ une image pour le service FastAPI et l'autre pour la DataBase (MongoDB)
 Conteneurs :
  --->>  docker-compose up :  créer et démarrer les conteneurs basés sur les images spécifiées dans le fichier docker-compose.yml.
 
- 
+ Graph API !!
+ (Ajouter les données scrappées from the posts !!!!!!)
