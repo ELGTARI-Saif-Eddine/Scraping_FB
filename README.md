@@ -26,3 +26,5 @@ Conteneurs :
 
  Graph API !!
  (Ajouter les données scrappées from the posts !!!!!!)
+
+ (????? N'oublier pas d'ajouter dictionnaire appéss JSON MongoDB ,pour test la création de la base de données sinon enlever ty.. expt ?????????????????? )
