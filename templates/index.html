@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Page Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2ecc71; /* Green color */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #2ecc71; /* Green color */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #27ae60; /* Darker green color on hover */
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            width: 200px; /* Set the width to 100 pixels */
+        }
+    </style>
 </head>
 <body>
-    <h1>Facebook Page Scraper</h1>
+    <header>
+        <img src="https://elyadata.com/assets/elyadata-seo-img.jpg" alt="Logo" id="logo">
+
+        <h1><br>Facebook - Public Pages Scraper<br></h1>
+    </header>
+    
     <form onsubmit="startScraping(); return false;">
         <label for="pageName">Page Name:</label>
         <input type="text" id="pageName" name="pageName" value="NatGeoAbuDhabi" required><br>
