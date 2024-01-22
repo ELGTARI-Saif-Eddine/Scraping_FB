@@ -70,7 +70,7 @@ Facebook's Graph API is the recommended and legitimate way to access data from F
 
 ## Test: 
 _RUN_ : 
-sh 
+  
 ```
 pytest test_app.py
 ```
