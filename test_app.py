@@ -1,6 +1,6 @@
 import pytest
 from starlette.testclient import TestClient
-from scrap_fb_pages import app  # Replace with the actual name of your main module
+from scrap_fb_pages import app  
 
 @pytest.fixture
 def test_client():
