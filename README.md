@@ -49,8 +49,9 @@ id,name,shares,likes,loves,wow,cares,sad,angry,haha,reactions_count,comments,con
 **Graph API :**
 To scrap Data from Facebook Pulic Pages :
 Facebook's Graph API is the recommended and legitimate way to access data from Facebook Pages programmatically, but it requires proper authentication and adherence to Facebook's policies.
-     we need to get a page_access_token.
-     Use the obtained page access token to make API requests to the Graph API endpoint for the information we need.
-
+- we need to get a page_access_token.
+- Use the obtained page access token to make API 
+- requests to the Graph API endpoint for the information we need.
+  
 ## Note: 
 **(Web Interface Improvement)** Enhancements to the outputs can be achieved by incorporating progress bars on the HTML page or by adding alerts and messages to display logs on the web page. All of this can be accomplished through the integration of websockets with FastAPI.
