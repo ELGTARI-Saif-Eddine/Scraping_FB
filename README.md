@@ -1,7 +1,4 @@
-[![Now in Android: 55]          // Title
-(https://i.ytimg.com/vi/rqkmqTb7Goc/maxresdefault.jpg)] // Thumbnail
-(https://www.youtube.com/watch?v=rqkmqTb7Goc "Now in Android: 55")    // Video Link
-
+[<img src="https://i.ytimg.com/vi/rqkmqTb7Goc/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc "Now in Android: 55")
 # Scraping_FB
 
 https://youtu.be/rqkmqTb7Goc
