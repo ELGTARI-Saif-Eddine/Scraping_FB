@@ -2,18 +2,10 @@
 
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
+
+Une simple démonstastion avec Video, Uploaded sur youtube  
+
 [<img src="https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/2.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc)
-
-![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
-
-![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_4.png)
-
-![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/6.jpg)
-
-![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)
-
-# Scraping_FB
-
 
 
 Vous trouvez au-dessous une démonstartion par screenshots et une autre avec une vidéo uploaded to youtube.
@@ -29,9 +21,17 @@ Vous trouvez au-dessous une démonstartion par screenshots et une autre avec une
 9 - Ainsi, Les Données scrappées seront enrigistrer sous format DataFrame sous le répertoire "dataScrapped" avec le nom "DataFrame_scrapped_FB_Page.csv" dans le Contenaire
 
 Les captures pour Montrer les resultats du Code :
-Scren Sohoots : ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
-Une simple démonstastion avec Video, Uploaded sur youtube  
+![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
+
+![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_4.png)
+
+![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
+
+![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/6.jpg)
+
+![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)
+
 
 Donc, On a utilisé Docker-compose pour créer deux images : 
 une image pour le service FastAPI et l'autre pour la DataBase (MongoDB)  
