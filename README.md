@@ -1,6 +1,8 @@
-[Scren Sohoots : ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
+# Scraping_FB
 
-](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)[<img src="https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/2.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc)
+[Scren Sohoots : ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)]
+
+[<img src="https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/2.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc)
 
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
 
@@ -12,8 +14,6 @@
 
 # Scraping_FB
 
-
-https://youtu.be/rqkmqTb7Goc
 
 
 Vous trouvez au-dessous une démonstartion par screenshots et une autre avec une vidéo uploaded to youtube.
