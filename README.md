@@ -1,24 +1,24 @@
-# Scraping_FB
+# _Facebook - Public Pages Scraper_
 
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
 
-Une simple démonstastion avec Video, Uploaded sur youtube  
+## A simple demonstration with video, uploaded on YouTube :
 
 [<img src="https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/2.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc)
 
 
-Vous trouvez au-dessous une démonstartion par screenshots et une autre avec une vidéo uploaded to youtube.
+## Below, you will find a demonstration through screenshots :
 
-1 - D'abord, créer une image avec Docker-Compose
-2 - Lancer le container 
-3 - Accéder sur votre navigateur à l'adresse http://127.0.0.1:8000/
-4 - Sur la page qui sera affichée, ajouter l'ID de la page facebook publique choisie.
-5 - Ajouter le nombre des posts qu'on le veut scraper.
-6 - Cliquer sur le boutton "Start Scrapping"
-7 - Il faut attendre (quelques seconds ou minutes) tout dépend de nombre de posts à scraper
-8 - Le code va scrapper le N nombre posts choisis et l'insiréer dans une base de données NoSQL MongoDB.  
-9 - Ainsi, Les Données scrappées seront enrigistrer sous format DataFrame sous le répertoire "dataScrapped" avec le nom "DataFrame_scrapped_FB_Page.csv" dans le Contenaire
+- 1 - First, create an image with Docker-Compose.
+- 2 - Launch the container.
+- 3 - Access your browser at http://127.0.0.1:8000/.
+- 4 - On the displayed page, add the ID of the chosen public Facebook page.
+- 5 - Add the number of posts you want to scrape.
+- 6 - Click on the "Start Scraping" button.
+- 7 - Wait (a few seconds or minutes) depending on the number of posts to scrape.
+- 8 - The code will scrape the specified number of posts and insert them into a NoSQL MongoDB database.
+- 9 - The scraped data will be saved in DataFrame format under the "dataScrapped" directory with the name "DataFrame_scrapped_FB_Page.csv" in the container.
 
 Les captures pour Montrer les resultats du Code :
 
