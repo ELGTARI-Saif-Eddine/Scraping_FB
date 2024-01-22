@@ -49,11 +49,10 @@
 One image for the FastAPI service and the other for the database (MongoDB).
 --->>  ```docker-compose build``` : Build or rebuild the specified Docker images in the docker-compose.yml file.
 
-**Containers :*</br>*
-
+**Containers :** </br>
 --->>  ```docker-compose up``` :  Create and start containers based on the images specified in the docker-compose.yml file.
  
-**The scraped data from the posts includes the following details:**</br>
+**The scraped data from the posts includes the following details:** </br>
 id,name,shares,likes,loves,wow,cares,sad,angry,haha,reactions_count,comments,content,posted_on,video,image,post_url
 
 **Graph API :** </br>
