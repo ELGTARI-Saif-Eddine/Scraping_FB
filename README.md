@@ -20,14 +20,17 @@
 - 8 - The code will scrape the specified number of posts and insert them into a NoSQL MongoDB database.
 - 9 - The scraped data will be saved in DataFrame format under the "dataScrapped" directory with the name "DataFrame_scrapped_FB_Page.csv" in the container.
 
-Les captures pour Montrer les resultats du Code :
-
+# Screenshots to Display Code Results and Explain the Steps :
+FastApi and MongoDB Images on Docker :
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
 
+Access to the Page:  ```http://127.0.0.1:8000/```
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_4.png)
 
+Scraping Status (Successful State):
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
+Scraping Results:
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/6.jpg)
 
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)
