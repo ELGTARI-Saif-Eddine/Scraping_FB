@@ -12,7 +12,7 @@
 
 - 1 - First, create an image with Docker-Compose.
 - 2 - Launch the container.
-- 3 - Access your browser at ```sh http://127.0.0.1:8000/. ```
+- 3 - Access your browser at : ```http://127.0.0.1:8000/```
 - 4 - On the displayed page, add the ID of the chosen public Facebook page.
 - 5 - Add the number of posts you want to scrape.
 - 6 - Click on the "Start Scraping" button.
