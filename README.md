@@ -67,3 +67,9 @@ Facebook's Graph API is the recommended and legitimate way to access data from F
   
 ## Note: 
 **(Web Interface Improvement)** Enhancements to the outputs can be achieved by incorporating progress bars on the HTML page or by adding alerts and messages to display logs on the web page. All of this can be accomplished through the integration of websockets with FastAPI.
+
+## Test: 
+_RUN_ : 
+sh ``` pytest test_app.py
+   ```
+To test this application
