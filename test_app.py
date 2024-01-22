@@ -14,5 +14,5 @@ def test_start_scraping_endpoint(test_client):
 
     # Test with invalid parameters (simulate an error)
     response = test_client.get("/start_scraping?&page_name=InvalidPage&posts_count=5")
-    assert response.status_code == 200  # Adjust the status code based on your actual implementation
+    assert response.status_code == 200  # The status code based on actual implementation
     assert response.json() == {"message": "Expected Error Message"}
