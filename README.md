@@ -46,7 +46,7 @@ One image for the FastAPI service and the other for the database (MongoDB).
 **The scraped data from the posts includes the following details:**
 id,name,shares,likes,loves,wow,cares,sad,angry,haha,reactions_count,comments,content,posted_on,video,image,post_url
 
-**Graph API :**
+**Graph API :** </br>
 To scrap Data from Facebook Pulic Pages :
 Facebook's Graph API is the recommended and legitimate way to access data from Facebook Pages programmatically, but it requires proper authentication and adherence to Facebook's policies.
 - we need to get a page_access_token.
