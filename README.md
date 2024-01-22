@@ -22,27 +22,35 @@
 
 # Screenshots to Display Code Results and Explain the Steps :
 **FastApi and MongoDB Images on Docker :**
+
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
 
 **Containers on Docker:**
+
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_4.png)
 
 **Access to the Page:**  ```http://127.0.0.1:8000/```
+
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
-Scraping Status (Successful State):
+**Scraping Status (Successful State):**
+
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/6.jpg)
+
 **Scraping Results:**
+
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)
 
 
 </br>
 
 **So, we used Docker-compose to create two images :** </br>
+
 One image for the FastAPI service and the other for the database (MongoDB).
 --->>  ```docker-compose build``` : Build or rebuild the specified Docker images in the docker-compose.yml file.
 
 **Containers :*</br>*
+
 --->>  ```docker-compose up``` :  Create and start containers based on the images specified in the docker-compose.yml file.
  
 **The scraped data from the posts includes the following details:**</br>
