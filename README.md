@@ -21,37 +21,39 @@
 - 9 - The scraped data will be saved in DataFrame format under the "dataScrapped" directory with the name "DataFrame_scrapped_FB_Page.csv" in the container.
 
 # Screenshots to Display Code Results and Explain the Steps :
-FastApi and MongoDB Images on Docker :
+**FastApi and MongoDB Images on Docker :**
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_3.png)
 
-Containers on Docker:
+**Containers on Docker:**
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_4.png)
 
-Access to the Page:  ```http://127.0.0.1:8000/```
+**Access to the Page:**  ```http://127.0.0.1:8000/```
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/im_1.png)
 
 Scraping Status (Successful State):
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/6.jpg)
-Scraping Results:
+**Scraping Results:**
 ![alt text](https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/5.jpg)
 
 
-**So, we used Docker-compose to create two images :**
+</br>
+
+**So, we used Docker-compose to create two images :** </br>
 One image for the FastAPI service and the other for the database (MongoDB).
 --->>  ```docker-compose build``` : Build or rebuild the specified Docker images in the docker-compose.yml file.
 
-**Containers :**
+**Containers :*</br>*
 --->>  ```docker-compose up``` :  Create and start containers based on the images specified in the docker-compose.yml file.
  
-**The scraped data from the posts includes the following details:**
+**The scraped data from the posts includes the following details:**</br>
 id,name,shares,likes,loves,wow,cares,sad,angry,haha,reactions_count,comments,content,posted_on,video,image,post_url
 
 **Graph API :** </br>
 To scrap Data from Facebook Pulic Pages :
 Facebook's Graph API is the recommended and legitimate way to access data from Facebook Pages programmatically, but it requires proper authentication and adherence to Facebook's policies.
-- we need to get a page_access_token.
+- We need to get a page_access_token.
 - Use the obtained page access token to make API 
-- requests to the Graph API endpoint for the information we need.
+- Requests to the Graph API endpoint for the information we need.
   
 ## Note: 
 **(Web Interface Improvement)** Enhancements to the outputs can be achieved by incorporating progress bars on the HTML page or by adding alerts and messages to display logs on the web page. All of this can be accomplished through the integration of websockets with FastAPI.
