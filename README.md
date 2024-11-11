@@ -5,8 +5,6 @@
 
 ## A simple demonstration with video, uploaded on YouTube :
 
-[<img src="https://github.com/ELGTARI-Saif-Eddine/Scraping_FB/blob/main/screenshots/2.jpg" width="50%">](https://www.youtube.com/watch?v=rqkmqTb7Goc)
-
 
 ## Below, you will find a demonstration through screenshots :
 
